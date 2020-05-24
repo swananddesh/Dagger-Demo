@@ -20,7 +20,7 @@ Created by Swanand on 2020-04-18
  * throughout the application.
  * e.g. Retrofit instance, Glide instance etc.
  **/
-@Module
+@Module(includes = [ViewModelFactoryModule::class])
 class AppModule {
     companion object{
 
